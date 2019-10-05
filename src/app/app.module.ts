@@ -10,7 +10,6 @@ import { NgtUniversalModule } from '@ng-toolkit/universal';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
-import { RegistrationModule } from '@registration/registration.module';
 import { HomeComponent } from './pages/home/home.component';
 @NgModule({
   declarations: [
@@ -24,8 +23,7 @@ import { HomeComponent } from './pages/home/home.component';
     TransferHttpCacheModule,
     HttpClientModule,
     NgtUniversalModule,
-    NgbModule,
-    RegistrationModule
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
