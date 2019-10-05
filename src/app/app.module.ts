@@ -8,6 +8,8 @@ import { TransferHttpCacheModule } from '@nguniversal/common';
 import { HttpClientModule } from '@angular/common/http';
 import { NgtUniversalModule } from '@ng-toolkit/universal';
 
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
 @NgModule({
   declarations: [
     AppComponent
@@ -18,7 +20,8 @@ import { NgtUniversalModule } from '@ng-toolkit/universal';
     CommonModule,
     TransferHttpCacheModule,
     HttpClientModule,
-    NgtUniversalModule
+    NgtUniversalModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
