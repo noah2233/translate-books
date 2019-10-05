@@ -11,9 +11,11 @@ import { NgtUniversalModule } from '@ng-toolkit/universal';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { RegistrationModule } from '@registration/registration.module';
+import { HomeComponent } from './pages/home/home.component';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
