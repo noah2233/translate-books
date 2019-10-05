@@ -6,8 +6,8 @@
       "@environment/*": [
         "environments/*"
       ],
-      "@registration/*": [
-        "app/registration/*"
+      "@pages/*": [
+        "app/pages/*"
       ]
     },
     "downlevelIteration": true,
