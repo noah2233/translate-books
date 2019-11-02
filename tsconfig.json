@@ -5,15 +5,6 @@
     "paths": {
       "@environment/*": [
         "environments/*"
-      ],
-      "@common/*": [
-        "app/common/*"
-      ],
-      "@core/*": [
-        "app/core/*"
-      ],
-      "@modules/*": [
-        "app/modules/*"
       ]
     },
     "downlevelIteration": true,

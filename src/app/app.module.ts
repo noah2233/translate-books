@@ -9,14 +9,10 @@ import { HttpClientModule } from '@angular/common/http';
 import { NgtUniversalModule } from '@ng-toolkit/universal';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { SiteHeader1Component } from './common/site-header1/site-header1.component';
-import { SiteFooter1Component } from './common/site-footer1/site-footer1.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    SiteHeader1Component,
-    SiteFooter1Component
+    AppComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
@@ -28,10 +24,6 @@ import { SiteFooter1Component } from './common/site-footer1/site-footer1.compone
     NgbModule
   ],
   providers: [],
-  bootstrap: [AppComponent],
-  exports: [
-    SiteHeader1Component,
-    SiteFooter1Component
-  ]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
