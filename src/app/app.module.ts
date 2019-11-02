@@ -10,13 +10,13 @@ import { NgtUniversalModule } from '@ng-toolkit/universal';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SiteHeader1Component } from './common/site-header1/site-header1.component';
-import { SiteFooterComponent } from './common/site-footer/site-footer.component';
+import { SiteFooter1Component } from './common/site-footer1/site-footer1.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SiteHeader1Component,
-    SiteFooterComponent
+    SiteFooter1Component
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
@@ -28,6 +28,10 @@ import { SiteFooterComponent } from './common/site-footer/site-footer.component'
     NgbModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  exports: [
+    SiteHeader1Component,
+    SiteFooter1Component
+  ]
 })
 export class AppModule { }
