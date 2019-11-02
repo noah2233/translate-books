@@ -1,2 +1,2 @@
-// specifies additional routes for prerender
+// specifies additional routes for preRender
 export const ROUTES = [];

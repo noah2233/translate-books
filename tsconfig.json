@@ -9,10 +9,10 @@
       "@common/*": [
         "app/common/*"
       ],
-      "@/core*": [
+      "@core/*": [
         "app/core/*"
       ],
-      "@/modules*": [
+      "@modules/*": [
         "app/modules/*"
       ]
     },
