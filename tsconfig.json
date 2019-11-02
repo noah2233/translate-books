@@ -6,8 +6,11 @@
       "@environment/*": [
         "environments/*"
       ],
-      "@pages/*": [
-        "app/pages/*"
+      "@common/*": [
+        "app/common/*"
+      ],
+      "@/core*": [
+        "app/core/*"
       ]
     },
     "downlevelIteration": true,
