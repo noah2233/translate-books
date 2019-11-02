@@ -11,6 +11,9 @@
       ],
       "@/core*": [
         "app/core/*"
+      ],
+      "@/modules*": [
+        "app/modules/*"
       ]
     },
     "downlevelIteration": true,
